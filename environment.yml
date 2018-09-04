@@ -1,11 +1,11 @@
 name: GCOOS
 channels:
-  - conda-forge
+  - defaults
 dependencies:
   - python=3.6
+  - pip
   - cartopy
   - datashader
-  - erddapy
   - geoviews
   - hvplot
   - jupyter
@@ -17,3 +17,5 @@ dependencies:
   - pandas
   - requests
   - xarray
+  - pip:
+    - erddapy
